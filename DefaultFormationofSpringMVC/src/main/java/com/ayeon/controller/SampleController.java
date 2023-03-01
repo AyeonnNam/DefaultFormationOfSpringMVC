@@ -143,5 +143,11 @@ public class SampleController {
 		
 		
 	}
+	
+	@GetMapping("/exUpload")
+	public void exUpload() {
+		log.info("/exUpload..........");
+	}
+	
 
 }
